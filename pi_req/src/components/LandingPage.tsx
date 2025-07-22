@@ -44,32 +44,7 @@ const LandingPage: React.FC = () => {
             justifyContent: 'center',
             flexWrap: 'wrap'
           }}>
-            <button style={{
-              backgroundColor: '#00a651',
-              color: 'white',
-              border: 'none',
-              padding: '1rem 2rem',
-              borderRadius: '5px',
-              fontSize: '1.1rem',
-              fontWeight: '600',
-              cursor: 'pointer',
-              transition: 'background-color 0.3s ease'
-            }}>
-              Get a Quote
-            </button>
-            <button style={{
-              backgroundColor: 'transparent',
-              color: 'white',
-              border: '2px solid white',
-              padding: '1rem 2rem',
-              borderRadius: '5px',
-              fontSize: '1.1rem',
-              fontWeight: '600',
-              cursor: 'pointer',
-              transition: 'all 0.3s ease'
-            }}>
-              Learn More
-            </button>
+
             <Link 
               to="/personal-information-request"
               style={{
@@ -86,7 +61,7 @@ const LandingPage: React.FC = () => {
                 display: 'inline-block'
               }}
             >
-              Personal Info Request
+              Personal Information Request
             </Link>
             <Link 
               to="/pi-request-v2"
@@ -104,7 +79,7 @@ const LandingPage: React.FC = () => {
                 display: 'inline-block'
               }}
             >
-              PI Request (Wizard)
+              Personal Information Request (Wizard)
             </Link>
           </div>
         </div>
