@@ -1,41 +1,45 @@
 import { useState } from 'react'
 import './App.css'
-import { BotEmulator } from './components/BotEmulator'
-import { BotClient } from './components/BotClient'
+import { PersonalInfoBot } from './components/PersonalInfoBot.tsx'
+import { PersonalInfoReport } from './components/PersonalInfoReport.tsx'
+import logo from './assets/metlife-logo.png'
 
 function App() {
-  const [activeTab, setActiveTab] = useState<'emulator' | 'client'>('client');
+  const [activeTab, setActiveTab] = useState<'personal-info' | 'personal-info-report'>('personal-info');
 
   return (
     <div className="app-container">
       <header className="app-header">
-        <h1>MetLife PI Bot Interface</h1>
-        <p>A custom user interface for the PI Bot emulator and client</p>
+        <h1><img src={logo} alt="MetLife Logo" className='metlife-logo-header'/> MetLife</h1>
       </header>
-      
       <div className="tab-container">
         <div className="tab-buttons">
           <button 
-            className={`tab-button ${activeTab === 'client' ? 'active' : ''}`}
-            onClick={() => setActiveTab('client')}
+            className={`tab-button ${activeTab === 'personal-info' ? 'active' : ''}`}
+            onClick={() => setActiveTab('personal-info')}
           >
-            Bot Client
+            Personal Info Request
           </button>
           <button 
-            className={`tab-button ${activeTab === 'emulator' ? 'active' : ''}`}
-            onClick={() => setActiveTab('emulator')}
+            className={`tab-button ${activeTab === 'personal-info-report' ? 'active' : ''}`}
+            onClick={() => setActiveTab('personal-info-report')}
           >
-            Bot Emulator
+            Personal Info Report
           </button>
         </div>
       </div>
       
       <main className="app-main">
-        {activeTab === 'client' ? <BotClient /> : <BotEmulator />}
+        {activeTab === 'personal-info' && (
+          <PersonalInfoBot />
+        )}
+        {activeTab === 'personal-info-report' && (
+          <PersonalInfoReport />
+        )}
       </main>
       
       <footer className="app-footer">
-        <p>Built with React + TypeScript | MetLife PI Bot Project</p>
+        <p>MetLife Personal Information Request System</p>
       </footer>
     </div>
   );
