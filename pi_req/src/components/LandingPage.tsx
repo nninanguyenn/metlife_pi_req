@@ -1,12 +1,11 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import { PersonalInfoBot } from '../components/PersonalInfoBot.tsx'
 import { PersonalInfoReport } from '../components/PersonalInfoReport.tsx'
-import logo from './assets/metlife-logo.png'
-
-const [activeTab, setActiveTab] = useState<'personal-info' | 'personal-info-report'>('personal-info');
-
+import logo from '../assets/metlife-logo.png'
 
 const LandingPage: React.FC = () => {
+const [activeTab, setActiveTab] = useState('personal-info');
+
   return (
     <div className="app-container">
       <header className="app-header">
