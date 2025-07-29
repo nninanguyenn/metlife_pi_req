@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Header from './Header';
+import DocIntelligenceComponentTemp from './DocIntelligence/DocIntelligenceComponentTemp';
 
 interface PersonalInfo {
   firstName: string;
@@ -223,6 +224,24 @@ const PersonalInformationRequest: React.FC = () => {
     }
   };
 
+  // Handler for DocIntelligence extracted fields
+  const handleDocIntelligenceFields = (fields: {
+    firstName?: string;
+    lastName?: string;
+    address?: string;
+    state?: string;
+    dateOfBirth?: string;
+  }) => {
+    setPersonalInfo(prev => ({
+      ...prev,
+      firstName: fields.firstName || prev.firstName,
+      lastName: fields.lastName || prev.lastName,
+      address: fields.address || prev.address,
+      state: fields.state || prev.state,
+      dateOfBirth: fields.dateOfBirth || prev.dateOfBirth
+    }));
+  };
+
   const inputStyle: React.CSSProperties = {
     width: '100%',
     padding: '0.75rem',
@@ -251,7 +270,6 @@ const PersonalInformationRequest: React.FC = () => {
   return (
     <div style={{ minHeight: '100vh', backgroundColor: '#f8f9fa' }}>
       <Header />
-      
       <div style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
         <div style={{ marginBottom: '2rem' }}>
           <Link to="/" style={{ 
@@ -265,7 +283,6 @@ const PersonalInformationRequest: React.FC = () => {
             ← Back to Home
           </Link>
         </div>
-
         <h1 style={{ 
           fontSize: '2.5rem', 
           marginBottom: '1rem', 
@@ -274,7 +291,6 @@ const PersonalInformationRequest: React.FC = () => {
         }}>
           Personal Information Request
         </h1>
-        
         <p style={{ 
           textAlign: 'center', 
           marginBottom: '2rem', 
@@ -284,7 +300,10 @@ const PersonalInformationRequest: React.FC = () => {
         }}>
           Request a report of all Personal Information retained by MetLife. This service is available to current and previous MetLife customers.
         </p>
-
+        {/* DocIntelligenceComponent for document upload and autofill */}
+        <div style={{ marginBottom: '2rem' }}>
+          <DocIntelligenceComponentTemp onExtractedFields={handleDocIntelligenceFields} />
+        </div>
         {/* Error Message Display */}
         {errorMessage && (
           <div style={{
@@ -299,7 +318,6 @@ const PersonalInformationRequest: React.FC = () => {
             {errorMessage}
           </div>
         )}
-
         {/* Development Notice */}
         <div style={{
           backgroundColor: '#e3f2fd',
@@ -313,7 +331,6 @@ const PersonalInformationRequest: React.FC = () => {
         }}>
           <strong>Development Mode:</strong> Check the browser console for MFA codes when testing.
         </div>
-
         <form onSubmit={handleSubmit}>
           {/* Section 1: Personal Information */}
           <div style={sectionStyle}>
