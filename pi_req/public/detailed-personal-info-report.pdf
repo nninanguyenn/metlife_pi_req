@@ -1,0 +1,420 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+
+2 0 obj
+<< /Type /Pages /Kids [3 0 R 7 0 R 11 0 R] /Count 3 >>
+endobj
+
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources 4 0 R /Contents 5 0 R >>
+endobj
+
+4 0 obj
+<< /Font << /F1 6 0 R /F2 8 0 R >> >>
+endobj
+
+5 0 obj
+<< /Length 2800 >>
+stream
+BT
+/F2 20 Tf
+50 750 Td
+(MetLife Personal Information Request Report) Tj
+0 -50 Td
+/F1 12 Tf
+(Reference ID: REF-2024-001234) Tj
+0 -20 Td
+(Date: January 15, 2024) Tj
+0 -20 Td
+(Request Type: Access to Personal Information) Tj
+0 -40 Td
+(Dear John Smith,) Tj
+0 -20 Td
+(123 Main Street) Tj
+0 -20 Td
+(New York, NY 10001) Tj
+0 -40 Td
+/F2 14 Tf
+(Why we're contacting you:) Tj
+0 -25 Td
+/F1 12 Tf
+(You have requested access to your personal information that MetLife) Tj
+0 -15 Td
+(maintains about you in accordance with applicable privacy laws.) Tj
+0 -15 Td
+(This report fulfills your request and provides comprehensive) Tj
+0 -15 Td
+(information about the personal data we have collected.) Tj
+0 -30 Td
+/F2 14 Tf
+(What you need to know:) Tj
+0 -25 Td
+/F1 12 Tf
+(This report contains all personal information we have collected) Tj
+0 -15 Td
+(and processed about you, including data from various sources) Tj
+0 -15 Td
+(and systems. The information is organized by category and) Tj
+0 -15 Td
+(includes details about collection sources and purposes.) Tj
+0 -30 Td
+/F2 14 Tf
+(What you need to do:) Tj
+0 -25 Td
+/F1 12 Tf
+(Please review this information carefully. If you notice any) Tj
+0 -15 Td
+(inaccuracies or have questions about how your information) Tj
+0 -15 Td
+(is being used, please contact us using the information below.) Tj
+0 -15 Td
+(You have the right to request corrections or deletions.) Tj
+0 -30 Td
+/F2 14 Tf
+(We're here to help:) Tj
+0 -25 Td
+/F1 12 Tf
+(For questions about this report or your personal information:) Tj
+0 -15 Td
+(• Phone: 1-800-METLIFE \(1-800-638-5433\)) Tj
+0 -15 Td
+(• Email: privacy@metlife.com) Tj
+0 -15 Td
+(• Mail: MetLife Privacy Office, 200 Park Avenue, New York, NY 10166) Tj
+ET
+endstream
+endobj
+
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources 4 0 R /Contents 9 0 R >>
+endobj
+
+8 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+
+9 0 obj
+<< /Length 3500 >>
+stream
+BT
+/F2 14 Tf
+50 750 Td
+(MetLife collected information from the following sources:) Tj
+0 -25 Td
+/F1 12 Tf
+(• Application forms and enrollment documents) Tj
+0 -15 Td
+(• Claims and benefit administration systems) Tj
+0 -15 Td
+(• Customer service interactions and communications) Tj
+0 -15 Td
+(• Third-party data providers and verification services) Tj
+0 -15 Td
+(• Public records and databases) Tj
+0 -15 Td
+(• Medical providers and healthcare networks) Tj
+0 -15 Td
+(• Employers and group policy administrators) Tj
+0 -40 Td
+/F2 14 Tf
+(Purposes of collecting information:) Tj
+0 -25 Td
+/F1 12 Tf
+(• Policy administration and claims processing) Tj
+0 -15 Td
+(• Customer service and support) Tj
+0 -15 Td
+(• Legal and regulatory compliance) Tj
+0 -15 Td
+(• Fraud prevention and risk assessment) Tj
+0 -15 Td
+(• Marketing and communication \(with consent\)) Tj
+0 -15 Td
+(• Product development and analytics) Tj
+0 -15 Td
+(• Underwriting and risk assessment) Tj
+0 -40 Td
+/F2 14 Tf
+(Disclosures of your information outside of MetLife:) Tj
+0 -25 Td
+/F1 12 Tf
+(• Service providers and business partners) Tj
+0 -15 Td
+(• Regulatory authorities as required by law) Tj
+0 -15 Td
+(• Healthcare providers for claims processing) Tj
+0 -15 Td
+(• Legal counsel in connection with legal proceedings) Tj
+0 -15 Td
+(• Other parties with your explicit consent) Tj
+0 -15 Td
+(• Reinsurance companies for risk management) Tj
+0 -15 Td
+(• Fraud prevention agencies) Tj
+0 -15 Td
+(• Government agencies as required by law) Tj
+ET
+endstream
+endobj
+
+11 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources 4 0 R /Contents 12 0 R >>
+endobj
+
+12 0 obj
+<< /Length 4000 >>
+stream
+BT
+/F2 16 Tf
+50 750 Td
+(Personal Information Elements Collected About You) Tj
+0 -40 Td
+/F2 10 Tf
+(Category) Tj
+150 0 Td
+(Data Element) Tj
+250 0 Td
+(Value) Tj
+150 0 Td
+(Source) Tj
+-550 -20 Td
+(================================================================================) Tj
+0 -20 Td
+/F1 10 Tf
+(Personal Identity) Tj
+150 0 Td
+(Full Name) Tj
+250 0 Td
+(John Smith) Tj
+150 0 Td
+(Application) Tj
+-550 -15 Td
+() Tj
+150 0 Td
+(Date of Birth) Tj
+250 0 Td
+(01/01/1980) Tj
+150 0 Td
+(Application) Tj
+-550 -15 Td
+() Tj
+150 0 Td
+(Social Security Number) Tj
+250 0 Td
+(***-**-1234) Tj
+150 0 Td
+(Application) Tj
+-550 -15 Td
+() Tj
+150 0 Td
+(Gender) Tj
+250 0 Td
+(Male) Tj
+150 0 Td
+(Application) Tj
+-550 -15 Td
+() Tj
+150 0 Td
+(Marital Status) Tj
+250 0 Td
+(Married) Tj
+150 0 Td
+(Application) Tj
+-550 -25 Td
+(Contact Information) Tj
+150 0 Td
+(Email Address) Tj
+250 0 Td
+(john.smith@email.com) Tj
+150 0 Td
+(Application) Tj
+-550 -15 Td
+() Tj
+150 0 Td
+(Phone Number) Tj
+250 0 Td
+(\(555\) 123-4567) Tj
+150 0 Td
+(Application) Tj
+-550 -15 Td
+() Tj
+150 0 Td
+(Home Address) Tj
+250 0 Td
+(123 Main St, NY 10001) Tj
+150 0 Td
+(Application) Tj
+-550 -15 Td
+() Tj
+150 0 Td
+(Mailing Address) Tj
+250 0 Td
+(Same as Home) Tj
+150 0 Td
+(Application) Tj
+-550 -25 Td
+(Financial Information) Tj
+150 0 Td
+(Annual Income) Tj
+250 0 Td
+($75,000) Tj
+150 0 Td
+(Application) Tj
+-550 -15 Td
+() Tj
+150 0 Td
+(Bank Account) Tj
+250 0 Td
+(****1234) Tj
+150 0 Td
+(Claims System) Tj
+-550 -15 Td
+() Tj
+150 0 Td
+(Employment Status) Tj
+250 0 Td
+(Full-time) Tj
+150 0 Td
+(Application) Tj
+-550 -15 Td
+() Tj
+150 0 Td
+(Employer) Tj
+250 0 Td
+(ABC Corporation) Tj
+150 0 Td
+(Application) Tj
+-550 -25 Td
+(Health Information) Tj
+150 0 Td
+(Medical History) Tj
+250 0 Td
+([Protected Health Info]) Tj
+150 0 Td
+(Claims) Tj
+-550 -15 Td
+() Tj
+150 0 Td
+(Prescriptions) Tj
+250 0 Td
+([Protected Health Info]) Tj
+150 0 Td
+(Claims) Tj
+-550 -15 Td
+() Tj
+150 0 Td
+(Healthcare Provider) Tj
+250 0 Td
+(Dr. Johnson, MD) Tj
+150 0 Td
+(Claims) Tj
+-550 -15 Td
+() Tj
+150 0 Td
+(Insurance Claims) Tj
+250 0 Td
+(3 claims in 2023) Tj
+150 0 Td
+(Claims System) Tj
+-550 -25 Td
+(Policy Information) Tj
+150 0 Td
+(Policy Number) Tj
+250 0 Td
+(POL-2024-001) Tj
+150 0 Td
+(Policy System) Tj
+-550 -15 Td
+() Tj
+150 0 Td
+(Coverage Type) Tj
+250 0 Td
+(Life Insurance) Tj
+150 0 Td
+(Policy System) Tj
+-550 -15 Td
+() Tj
+150 0 Td
+(Premium Amount) Tj
+250 0 Td
+($250/month) Tj
+150 0 Td
+(Policy System) Tj
+-550 -15 Td
+() Tj
+150 0 Td
+(Beneficiary) Tj
+250 0 Td
+(Jane Smith \(Spouse\)) Tj
+150 0 Td
+(Application) Tj
+-550 -15 Td
+() Tj
+150 0 Td
+(Policy Start Date) Tj
+250 0 Td
+(01/01/2024) Tj
+150 0 Td
+(Policy System) Tj
+-550 -25 Td
+(Digital Interactions) Tj
+150 0 Td
+(Online Account) Tj
+250 0 Td
+(jsmith_metlife) Tj
+150 0 Td
+(Web System) Tj
+-550 -15 Td
+() Tj
+150 0 Td
+(Last Login) Tj
+250 0 Td
+(01/14/2024) Tj
+150 0 Td
+(Web System) Tj
+-550 -15 Td
+() Tj
+150 0 Td
+(Mobile App Usage) Tj
+250 0 Td
+(Active User) Tj
+150 0 Td
+(Mobile System) Tj
+-550 -15 Td
+() Tj
+150 0 Td
+(Communication Preferences) Tj
+250 0 Td
+(Email & SMS) Tj
+150 0 Td
+(Preference System) Tj
+ET
+endstream
+endobj
+
+xref
+0 13
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000124 00000 n 
+0000000234 00000 n 
+0000000284 00000 n 
+0000003137 00000 n 
+0000003197 00000 n 
+0000003287 00000 n 
+0000003343 00000 n 
+0000000000 65535 f 
+0000006896 00000 n 
+0000006957 00000 n 
+trailer
+<< /Size 13 /Root 1 0 R >>
+startxref
+11010
+%%EOF
