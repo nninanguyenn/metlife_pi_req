@@ -1,6 +1,6 @@
 import React, { useState, useMemo } from 'react';
 import { Link } from 'react-router-dom';
-import Header from './Header';
+import NewHeader from './NewHeader';
 import { piRequestAPI, type PersonalInfo } from '../utils/piRequestAPI';
 import styles from './PersonalInformationRequestWizard.module.css';
 
@@ -512,7 +512,7 @@ const PersonalInformationRequestWizard: React.FC = () => {
 
   return (
     <div className={styles.container}>
-      <Header />
+      <NewHeader />
       
       <div className={styles.mainPadding}>
         <div className={styles.mainContainer}>

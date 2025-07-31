@@ -1,5 +1,7 @@
 .container {
-    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+
     margin: 40px auto;
     background: #fff;
     border-radius: 8px;
@@ -14,10 +16,16 @@
     padding: 32px 0 16px 0;
     text-align: center;
 }
+
 .logo {
     height: 48px;
 }
 .main {
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 700px;
     padding: 32px 32px 0 32px;
 }
 .title {
