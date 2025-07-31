@@ -1,8 +1,7 @@
 /* Container and Layout */
 .container {
   min-height: 100vh;
-  background-color: #f8fafc;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background-color: white;
 }
 
 .mainPadding {
@@ -17,7 +16,8 @@
 .card {
   background-color: white;
   border-radius: 20px;
-  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 10px 25px rgba(0, 120, 212, 0.1);
+  border: 1px solid #e5e7eb;
   padding: 3rem;
   margin: 2rem auto;
   max-width: 800px;
@@ -29,6 +29,11 @@
 .headerSection {
   text-align: center;
   margin-bottom: 2rem;
+  background: linear-gradient(135deg, #0078d4 0%, #106ebe 100%);
+  padding: 2rem;
+  border-radius: 12px;
+  margin: 2rem 0;
+  box-shadow: 0 4px 15px rgba(0, 120, 212, 0.2);
 }
 
 .backLink {
@@ -40,6 +45,11 @@
   gap: 0.5rem;
   margin-bottom: 2rem;
   opacity: 0.9;
+  transition: opacity 0.3s ease;
+}
+
+.backLink:hover {
+  opacity: 1;
 }
 
 .mainTitle {
@@ -64,12 +74,16 @@
   margin-bottom: 2rem;
   flex-wrap: wrap;
   gap: 1rem;
+  background: #f8fafc;
+  padding: 1.5rem;
+  border-radius: 12px;
+  margin: 2rem 0;
 }
 
 .stepContainer {
   display: flex;
   align-items: center;
-  color: white;
+  color: #374151;
 }
 
 .stepCircle {
@@ -85,11 +99,13 @@
 }
 
 .stepCircleActive {
-  background-color: #10b981;
+  background-color: #0078d4;
+  color: white;
 }
 
 .stepCircleInactive {
-  background-color: rgba(255,255,255,0.3);
+  background-color: #e5e7eb;
+  color: #6b7280;
 }
 
 .stepDetails {
@@ -114,11 +130,11 @@
 }
 
 .stepConnectorActive {
-  background-color: #10b981;
+  background-color: #0078d4;
 }
 
 .stepConnectorInactive {
-  background-color: rgba(255,255,255,0.3);
+  background-color: #d1d5db;
 }
 
 /* Progress Bar */
@@ -133,10 +149,9 @@
 
 .progressFill {
   height: 100%;
-  background-color: #667eea;
+  background: linear-gradient(90deg, #0078d4 0%, #106ebe 100%);
   border-radius: 4px;
   transition: width 0.5s ease;
-  background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
 }
 
 /* Form Elements */
@@ -152,8 +167,8 @@
 }
 
 .input:focus {
-  border-color: #667eea;
-  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+  border-color: #0078d4;
+  box-shadow: 0 0 0 3px rgba(0, 120, 212, 0.1);
 }
 
 .label {
@@ -246,17 +261,17 @@
   align-items: center;
   gap: 1rem;
   padding: 1.5rem;
-  border: 2px solid #667eea;
+  border: 2px solid #0078d4;
   border-radius: 12px;
   cursor: pointer;
   transition: all 0.3s ease;
-  background-color: #f0f4ff;
+  background-color: #f0f8ff;
 }
 
 .radioButton {
   width: 20px;
   height: 20px;
-  accent-color: #667eea;
+  accent-color: #0078d4;
 }
 
 .radioTitle {
@@ -271,7 +286,7 @@
 
 /* Buttons */
 .buttonPrimary {
-  background-color: #667eea;
+  background: linear-gradient(135deg, #0078d4 0%, #106ebe 100%);
   color: white;
   border: none;
   padding: 1rem 2rem;
@@ -280,18 +295,19 @@
   font-weight: 600;
   cursor: pointer;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 14px 0 rgba(102, 126, 234, 0.4);
+  box-shadow: 0 4px 14px 0 rgba(0, 120, 212, 0.3);
 }
 
 .buttonPrimary:hover:not(:disabled) {
-  background-color: #5a67d8;
+  background: linear-gradient(135deg, #106ebe 0%, #0078d4 100%);
   transform: translateY(-1px);
+  box-shadow: 0 6px 20px 0 rgba(0, 120, 212, 0.4);
 }
 
 .buttonSecondary {
   background-color: transparent;
-  color: #667eea;
-  border: 2px solid #667eea;
+  color: #0078d4;
+  border: 2px solid #0078d4;
   padding: 1rem 2rem;
   border-radius: 12px;
   font-size: 1rem;
@@ -301,7 +317,7 @@
 }
 
 .buttonSecondary:hover:not(:disabled) {
-  background-color: #667eea;
+  background: linear-gradient(135deg, #0078d4 0%, #106ebe 100%);
   color: white;
 }
 
@@ -319,7 +335,7 @@
 }
 
 .buttonPrimarySuccess {
-  background-color: #10b981;
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
   color: white;
   border: none;
   padding: 1rem 2rem;
@@ -329,10 +345,11 @@
   cursor: pointer;
   transition: all 0.3s ease;
   width: 100%;
+  box-shadow: 0 4px 14px 0 rgba(16, 185, 129, 0.3);
 }
 
 .buttonPrimaryFullWidth {
-  background-color: #667eea;
+  background: linear-gradient(135deg, #0078d4 0%, #106ebe 100%);
   color: white;
   border: none;
   padding: 1rem 2rem;
@@ -341,14 +358,14 @@
   font-weight: 600;
   cursor: pointer;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 14px 0 rgba(102, 126, 234, 0.4);
+  box-shadow: 0 4px 14px 0 rgba(0, 120, 212, 0.3);
   width: 100%;
 }
 
 .buttonSecondaryDisabled {
   background-color: transparent;
-  color: #667eea;
-  border: 2px solid #667eea;
+  color: #0078d4;
+  border: 2px solid #0078d4;
   padding: 1rem 2rem;
   border-radius: 12px;
   font-size: 1rem;
@@ -359,7 +376,7 @@
 }
 
 .buttonPrimaryDisabledNav {
-  background-color: #667eea;
+  background: linear-gradient(135deg, #0078d4 0%, #106ebe 100%);
   color: white;
   border: none;
   padding: 1rem 2rem;
@@ -368,7 +385,7 @@
   font-weight: 600;
   cursor: not-allowed;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 14px 0 rgba(102, 126, 234, 0.4);
+  box-shadow: 0 4px 14px 0 rgba(0, 120, 212, 0.3);
   opacity: 0.5;
 }
 

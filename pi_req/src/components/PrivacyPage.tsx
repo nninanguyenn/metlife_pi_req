@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import styles from '../styles/PrivacyPage.module.css';
+import NewHeader from './NewHeader';
 
 const PrivacyPage: React.FC = () => {
     const [form, setForm] = useState({
@@ -39,9 +40,7 @@ const PrivacyPage: React.FC = () => {
 
     return (
         <div className={styles.container}>
-            <header className={styles.header}>
-                <img src="/metlife_logo-blue.png" alt="MetLife Logo" className={styles.logo} onError={(e) => { e.currentTarget.onerror = null; e.currentTarget.src = 'https://online.metlife.com/public/registration/resources/img/metLife_logo-blue.png'; }} />
-            </header>
+            <NewHeader />
             <main className={styles.main}>
                 <h1 className={styles.title}>Identify the subject of the request</h1>
                 <p className={styles.instructions}>

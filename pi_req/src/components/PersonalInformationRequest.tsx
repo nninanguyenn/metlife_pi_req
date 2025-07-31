@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import Header from './Header';
+import NewHeader from './NewHeader';
 import DocIntelligenceComponentTemp from './DocIntelligence/DocIntelligenceComponentTemp';
 
 interface PersonalInfo {
@@ -269,7 +269,7 @@ const PersonalInformationRequest: React.FC = () => {
 
   return (
     <div style={{ minHeight: '100vh', backgroundColor: '#f8f9fa' }}>
-      <Header />
+      <NewHeader />
       <div style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
         <div style={{ marginBottom: '2rem' }}>
           <Link to="/" style={{ 
