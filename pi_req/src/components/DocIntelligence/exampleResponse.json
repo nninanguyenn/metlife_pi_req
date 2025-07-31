@@ -1,0 +1,450 @@
+[
+    {
+        "docType": "idDocument.driverLicense",
+        "boundingRegions": [
+            {
+                "pageNumber": 1,
+                "polygon": [
+                    0,
+                    0,
+                    718,
+                    0,
+                    718,
+                    436,
+                    0,
+                    436
+                ]
+            }
+        ],
+        "fields": {
+            "Address": {
+                "type": "address",
+                "content": "Main Street , Charleston,\nWV 456789",
+                "boundingRegions": [
+                    {
+                        "pageNumber": 1,
+                        "polygon": [
+                            290,
+                            172,
+                            462,
+                            172,
+                            462,
+                            204,
+                            290,
+                            204
+                        ]
+                    }
+                ],
+                "confidence": 0.989,
+                "spans": [
+                    {
+                        "offset": 54,
+                        "length": 35
+                    }
+                ],
+                "valueAddress": {
+                    "road": "Main Street",
+                    "postalCode": "456789",
+                    "city": "Charleston",
+                    "state": "WV",
+                    "streetAddress": "Main Street"
+                }
+            },
+            "CountryRegion": {
+                "type": "countryRegion",
+                "valueCountryRegion": "USA",
+                "confidence": 0.995
+            },
+            "DateOfBirth": {
+                "type": "date",
+                "valueDate": "1988-03-23",
+                "content": "03/23/1988",
+                "boundingRegions": [
+                    {
+                        "pageNumber": 1,
+                        "polygon": [
+                            330,
+                            256,
+                            409,
+                            255,
+                            409,
+                            270,
+                            330,
+                            269
+                        ]
+                    }
+                ],
+                "confidence": 0.99,
+                "spans": [
+                    {
+                        "offset": 147,
+                        "length": 10
+                    }
+                ]
+            },
+            "DateOfExpiration": {
+                "type": "date",
+                "valueDate": "2026-03-23",
+                "content": "03/23/2026",
+                "boundingRegions": [
+                    {
+                        "pageNumber": 1,
+                        "polygon": [
+                            331,
+                            273,
+                            409,
+                            273,
+                            409,
+                            287,
+                            331,
+                            286
+                        ]
+                    }
+                ],
+                "confidence": 0.99,
+                "spans": [
+                    {
+                        "offset": 174,
+                        "length": 10
+                    }
+                ]
+            },
+            "DateOfIssue": {
+                "type": "date",
+                "valueDate": "2019-03-23",
+                "content": "03/23/2019",
+                "boundingRegions": [
+                    {
+                        "pageNumber": 1,
+                        "polygon": [
+                            331,
+                            291,
+                            409,
+                            290,
+                            409,
+                            304,
+                            331,
+                            304
+                        ]
+                    }
+                ],
+                "confidence": 0.99,
+                "spans": [
+                    {
+                        "offset": 201,
+                        "length": 10
+                    }
+                ]
+            },
+            "DocumentDiscriminator": {
+                "type": "string",
+                "valueString": "12645646464554646456464544",
+                "content": "12645646464554646456464544",
+                "boundingRegions": [
+                    {
+                        "pageNumber": 1,
+                        "polygon": [
+                            305,
+                            322,
+                            445,
+                            321,
+                            445,
+                            333,
+                            306,
+                            332
+                        ]
+                    }
+                ],
+                "confidence": 0.99,
+                "spans": [
+                    {
+                        "offset": 226,
+                        "length": 26
+                    }
+                ]
+            },
+            "DocumentNumber": {
+                "type": "string",
+                "valueString": "034568",
+                "content": "034568",
+                "boundingRegions": [
+                    {
+                        "pageNumber": 1,
+                        "polygon": [
+                            331,
+                            239,
+                            380,
+                            238,
+                            380,
+                            252,
+                            331,
+                            252
+                        ]
+                    }
+                ],
+                "confidence": 0.99,
+                "spans": [
+                    {
+                        "offset": 128,
+                        "length": 6
+                    }
+                ]
+            },
+            "Endorsements": {
+                "type": "string",
+                "valueString": "NONE",
+                "content": "NONE",
+                "boundingRegions": [
+                    {
+                        "pageNumber": 1,
+                        "polygon": [
+                            513,
+                            221,
+                            553,
+                            221,
+                            553,
+                            234,
+                            513,
+                            234
+                        ]
+                    }
+                ],
+                "confidence": 0.99,
+                "spans": [
+                    {
+                        "offset": 116,
+                        "length": 4
+                    }
+                ]
+            },
+            "EyeColor": {
+                "type": "string",
+                "valueString": "BLU",
+                "content": "BLU",
+                "boundingRegions": [
+                    {
+                        "pageNumber": 1,
+                        "polygon": [
+                            513,
+                            292,
+                            536,
+                            291,
+                            537,
+                            304,
+                            514,
+                            304
+                        ]
+                    }
+                ],
+                "confidence": 0.99,
+                "spans": [
+                    {
+                        "offset": 218,
+                        "length": 3
+                    }
+                ]
+            },
+            "FirstName": {
+                "type": "string",
+                "valueString": "CHRIS",
+                "content": "CHRIS",
+                "boundingRegions": [
+                    {
+                        "pageNumber": 1,
+                        "polygon": [
+                            288,
+                            145,
+                            354,
+                            145,
+                            354,
+                            167,
+                            288,
+                            167
+                        ]
+                    }
+                ],
+                "confidence": 0.99,
+                "spans": [
+                    {
+                        "offset": 42,
+                        "length": 5
+                    }
+                ]
+            },
+            "Height": {
+                "type": "string",
+                "valueString": "5'11\"",
+                "content": "5'11\"",
+                "boundingRegions": [
+                    {
+                        "pageNumber": 1,
+                        "polygon": [
+                            514,
+                            257,
+                            548,
+                            256,
+                            548,
+                            268,
+                            514,
+                            270
+                        ]
+                    }
+                ],
+                "confidence": 0.99,
+                "spans": [
+                    {
+                        "offset": 163,
+                        "length": 5
+                    }
+                ]
+            },
+            "LastName": {
+                "type": "string",
+                "valueString": "SMITH",
+                "content": "SMITH",
+                "boundingRegions": [
+                    {
+                        "pageNumber": 1,
+                        "polygon": [
+                            362,
+                            145,
+                            428,
+                            144,
+                            428,
+                            167,
+                            362,
+                            167
+                        ]
+                    }
+                ],
+                "confidence": 0.99,
+                "spans": [
+                    {
+                        "offset": 48,
+                        "length": 5
+                    }
+                ]
+            },
+            "Region": {
+                "type": "string",
+                "valueString": "West Virginia",
+                "confidence": 0.99
+            },
+            "Restrictions": {
+                "type": "string",
+                "valueString": "NONE",
+                "content": "NONE",
+                "boundingRegions": [
+                    {
+                        "pageNumber": 1,
+                        "polygon": [
+                            417,
+                            221,
+                            457,
+                            221,
+                            457,
+                            235,
+                            417,
+                            234
+                        ]
+                    }
+                ],
+                "confidence": 0.99,
+                "spans": [
+                    {
+                        "offset": 106,
+                        "length": 4
+                    }
+                ]
+            },
+            "Sex": {
+                "type": "string",
+                "valueString": "M",
+                "content": "M",
+                "boundingRegions": [
+                    {
+                        "pageNumber": 1,
+                        "polygon": [
+                            513,
+                            238,
+                            520,
+                            238,
+                            519,
+                            251,
+                            513,
+                            250
+                        ]
+                    }
+                ],
+                "confidence": 0.99,
+                "spans": [
+                    {
+                        "offset": 140,
+                        "length": 1
+                    }
+                ]
+            },
+            "VehicleClassifications": {
+                "type": "string",
+                "valueString": "A",
+                "content": "A",
+                "boundingRegions": [
+                    {
+                        "pageNumber": 1,
+                        "polygon": [
+                            332,
+                            222,
+                            338,
+                            222,
+                            338,
+                            234,
+                            332,
+                            234
+                        ]
+                    }
+                ],
+                "confidence": 0.99,
+                "spans": [
+                    {
+                        "offset": 97,
+                        "length": 1
+                    }
+                ]
+            },
+            "Weight": {
+                "type": "string",
+                "valueString": "185LB",
+                "content": "185LB",
+                "boundingRegions": [
+                    {
+                        "pageNumber": 1,
+                        "polygon": [
+                            514,
+                            274,
+                            553,
+                            274,
+                            553,
+                            287,
+                            515,
+                            287
+                        ]
+                    }
+                ],
+                "confidence": 0.99,
+                "spans": [
+                    {
+                        "offset": 190,
+                        "length": 5
+                    }
+                ]
+            }
+        },
+        "confidence": 0.995,
+        "spans": [
+            {
+                "offset": 0,
+                "length": 264
+            }
+        ]
+    }
+]
