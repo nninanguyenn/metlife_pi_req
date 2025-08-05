@@ -2,8 +2,10 @@
 // This is a minimal helper for browser-based file upload
 
 export async function analyzeIdDocument(file: File) {
-  const endpoint = "https://met-pi-req-resource1.cognitiveservices.azure.com/";
-  const key = "04f13d2b4faa4529a90dad6909440373";
+  // SECURITY: Never hardcode API keys in source code!
+  //Replace with your Azure endpoint and key
+  const endpoint = "https://your-resource-name.cognitiveservices.azure.com/";
+  const key = "your-subscription-key-here";
   const url = `${endpoint}formrecognizer/documentModels/prebuilt-idDocument:analyze?api-version=2023-07-31`;
 
   const response = await fetch(url, {
