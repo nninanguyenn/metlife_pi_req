@@ -9,7 +9,7 @@ interface PersonalInfoRequest {
   address: string;
   email: string;
   dateRequested: string;
-  status: 'pending' | 'completed' | 'processing';
+  status: 'completed' | 'processing';
   requestType: string[];
   pdfPath: string;
 }
@@ -20,7 +20,7 @@ export const PersonalInfoReport: React.FC = () => {
   const [loading, setLoading] = useState(true);
   const [selectedRequest, setSelectedRequest] = useState<PersonalInfoRequest | null>(null);
   const [searchTerm, setSearchTerm] = useState('');
-  const [statusFilter, setStatusFilter] = useState<'all' | 'pending' | 'processing' | 'completed'>('all');
+  const [statusFilter, setStatusFilter] = useState<'all' | 'processing' | 'completed'>('all');
 
   useEffect(() => {
     // Simulate loading past requests
@@ -71,7 +71,7 @@ export const PersonalInfoReport: React.FC = () => {
             address: '789 Pine Rd, Chicago, IL 60601',
             email: 'michael.johnson@email.com',
             dateRequested: '2024-01-25',
-            status: 'pending',
+            status: 'completed',
             requestType: ['Data Deletion', 'Data Correction'],
             pdfPath: '/detailed-personal-info-report.pdf'
           },
@@ -84,7 +84,7 @@ export const PersonalInfoReport: React.FC = () => {
             email: 'sarah.williams@email.com',
             dateRequested: '2024-02-01',
             status: 'completed',
-            requestType: ['Access to Personal Information', 'Data Portability'],
+            requestType: ['Access to Personal Information'],
             pdfPath: '/detailed-personal-info-report.pdf'
           },
           {
@@ -96,7 +96,7 @@ export const PersonalInfoReport: React.FC = () => {
             email: 'david.brown@email.com',
             dateRequested: '2024-02-05',
             status: 'processing',
-            requestType: ['Data Correction', 'Opt-out of Marketing'],
+            requestType: ['Data Correction'],
             pdfPath: '/detailed-personal-info-report.pdf'
           },
           {
@@ -156,7 +156,6 @@ export const PersonalInfoReport: React.FC = () => {
     switch (status) {
       case 'completed': return '#28a745';
       case 'processing': return '#ffc107';
-      case 'pending': return '#dc3545';
       default: return '#6c757d';
     }
   };
@@ -165,7 +164,6 @@ export const PersonalInfoReport: React.FC = () => {
     switch (status) {
       case 'completed': return 'Completed';
       case 'processing': return 'Processing';
-      case 'pending': return 'Pending';
       default: return 'Unknown';
     }
   };
@@ -205,11 +203,10 @@ export const PersonalInfoReport: React.FC = () => {
         <div className="filter-box">
           <select
             value={statusFilter}
-            onChange={(e) => setStatusFilter(e.target.value as 'all' | 'pending' | 'processing' | 'completed')}
+            onChange={(e) => setStatusFilter(e.target.value as 'all' | 'processing' | 'completed')}
             className="filter-select"
           >
             <option value="all">All Status</option>
-            <option value="pending">Pending</option>
             <option value="processing">Processing</option>
             <option value="completed">Completed</option>
           </select>
@@ -228,10 +225,6 @@ export const PersonalInfoReport: React.FC = () => {
         <div className="stat-item">
           <span className="stat-number">{filteredRequests.filter(r => r.status === 'processing').length}</span>
           <span className="stat-label">Processing</span>
-        </div>
-        <div className="stat-item">
-          <span className="stat-number">{filteredRequests.filter(r => r.status === 'pending').length}</span>
-          <span className="stat-label">Pending</span>
         </div>
       </div>
 
@@ -316,7 +309,6 @@ export const PersonalInfoReport: React.FC = () => {
                   <button 
                     className="btn btn-primary"
                     onClick={() => handleViewReport(request)}
-                    disabled={request.status === 'pending'}
                   >
                     View Details
                   </button>
